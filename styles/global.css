@@ -7,5 +7,73 @@
 }
 
 body {
-    
+  background-color: rgb(194, 194, 194);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+
+/* section {
+} */
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#display-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: 250px;
+  border: solid 10px white;
+}
+
+.devil {
+  background-color: red;
+  color: white;
+}
+
+.flat-top {
+  background-color: darkgreen;
+}
+
+.hero {
+  background-color: gold;
+}
+
+.ninja {
+  background-color: black;
+  color: white;
+}
+
+.princess {
+  background-color: aqua;
+}
+
+.psychic {
+  background-color: blueviolet;
+}
+
+.ranger {
+  background-color: forestgreen;
+}
+
+.skeleton {
+  background-color: grey;
+}
+
+.thor {
+  background-color: silver;
+}
+
+.turtle {
+  background-color: greenyellow;
 }

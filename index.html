@@ -1,23 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <!-- import css: -->
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/global.css" />
     <title>Your App</title>
-</head>
+  </head>
 
-<body>
-    Implement you app here, <a href="demo.html">See the demo</a>
+  <body>
+    <a href="demo.html">See the demo</a>
+    <h1>Greeting Cards</h1>
+    <main>
+      <section class="controls">
+        <form id="form">
+          <label>Name</label>
+          <input id="name" name="name" type="text" value="" />
 
+          <label>Description</label>
+          <input id="description" name="description" type="text" value="" />
 
+          <select id="class-select" name="class-select">
+            <option value="devil">Devil</option>
+            <option value="flat-top">Flat-Top</option>
+            <option value="hero">Hero</option>
+            <option value="ninja">Ninja</option>
+            <option value="princess">Princess</option>
+            <option value="psychic">Psychic</option>
+            <option value="ranger">Ranger</option>
+            <option value="skeleton">Skeleton</option>
+            <option value="thor">Thor</option>
+            <option value="turtle">Turtle</option>
+          </select>
 
+          <button>Submit</button>
+        </form>
+      </section>
+
+      <section class="display">
+        <div id="display-box" class="devil">
+          <h1 id="name-display"></h1>
+          <img id="image" src="" />
+          <p id="description-display"></p>
+        </div>
+      </section>
+    </main>
 
     <script src="app.js" type="module"></script>
-</body>
-
+  </body>
 </html>

@@ -1,11 +1,8 @@
-Greeting Card Builder
-===
+# Greeting Card Builder
 
 Build and deploy and greeting card maker
 
 ## Resources
-
-
 
 ### Images
 
@@ -22,11 +19,13 @@ Build and deploy and greeting card maker
 ### Color Pallets
 
 From image:
+
 - [Canva generate from image](https://www.canva.com/colors/color-palette-generator/)
 - [Generate from image](https://imagecolorpicker.com/)
 - [Coolors](https://coolors.co/image-picker)
 
 Designer/Color Palettes
+
 - [Colour lovers](https://www.colourlovers.com/)
 - [Adobe Color wheel](https://color.adobe.com/create/color-wheel)
 - [Canva Color Wheel](https://www.canva.com/colors/color-wheel/)
@@ -42,15 +41,15 @@ but use _as you build_. Do not copy and change values!
 
 Build your page in the following files:
 
-File | Purpose
----|---
-`index.html` | Main page with html and semantic elements
-`global.css` | css for your page
-`app.js`     | JavaScript to dynamically change presentation
+| File         | Purpose                                       |
+| ------------ | --------------------------------------------- |
+| `index.html` | Main page with html and semantic elements     |
+| `global.css` | css for your page                             |
+| `app.js`     | JavaScript to dynamically change presentation |
 
 ## Commit
 
-As you are working and complete small steps, stop and make a commit using the 
+As you are working and complete small steps, stop and make a commit using the
 build-in VSCode sidebar tool:
 
 - "Stage" the files you want to commit
@@ -61,12 +60,13 @@ To "push" to GitHub, either hit "Sync" after committing, or hit the recycle whee
 ## Assignment
 
 Your job is to create a greeting card build. You should have:
+
 - At least one input
 - At least one select
 - Set a theme using a class
 - Update an image, either using a theme or an `<img>` tag
 
-Remember to work in small chunks! 
+Remember to work in small chunks!
 
 One approach to break down the problem:
 
@@ -86,6 +86,16 @@ Make one example of your greeting card. This will help you to figure out what th
 ## 3. STRETCH: Export Image
 
 Look at the demo for how to download the greeting card as an image:
+
 1. Add the `<script>` tag for domtoimage
 1. Add a click event listener to the export button
 1. Look at the code in the demo project, but pass in the element that has your greeting card.
+
+2 inputs
+name
+description
+1 select
+class
+theme
+display div
+box to render within
